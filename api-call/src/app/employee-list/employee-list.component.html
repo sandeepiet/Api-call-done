@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+
+    <div class="container">
+        <h1>Employee Detail List</h1>
+  
+        <div class="table-responsive">          
+        <table class="table">
+          <thead>
+            <tr>
+              <th>UserRoleId</th>
+              <th>Name</th>
+              <th>UserName</th>
+              <th>Number</th>
+              <th>Address</th>
+              <th>Pincode</th>
+              <th>UserName</th>
+              <th>Gender</th>
+              <th>Status</th>
+              <th>PlaceName</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let employee of employees">
+            <tr>
+              <td>{{employee.CityId}}</td>
+              <td>{{employee.CityName}} </td>
+              <td>{{employee.Country}}</td>
+              <td>{{employee.PhoneNumber}}</td>
+              <td>{{employee.ProfileId}}</td>
+              <td>{{employee.State}}</td>
+              <td>{{employee.UserName}}</td>
+              <td>{{employee.Gender}}</td>
+              <td>{{employee.Status}}</td>
+              <td>{{employee.PlaceName}}</td>
+              
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="container">
+          <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+              <div class="form-group">
+                <label>City Name : </label>
+                <input type="text" class="form-control" name="cityName" ngModel>
+                <h2>{{name}}</h2>
+              </div>
+              <div class="form-group">
+                <label>Country : </label>
+                <input type="text" class="form-control" name="country" ngModel>
+              </div>
+              <div class="form-group">
+                <label>Profile Id : </label>
+                <input type="text" class="form-control" name="profileId" ngModel>
+              </div>
+              <div class="form-group">
+                <label>State : </label>
+                <input type="text" class="form-control" name="state" ngModel>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+        </div>
+
+    
+  <button (click)="onTestPost()">POST JSON</button>
+  
+
+  

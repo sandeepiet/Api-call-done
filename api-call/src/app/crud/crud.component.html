@@ -1,0 +1,87 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      
+       </div>
+       <div class="col-md-4">
+        </div>
+    </div>
+  
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" name="name"
+        [(ngModel)]="model.name" placeholder="Enter Your name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="position">Position:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="position" placeholder="Enter password Position" 
+        [(ngModel)]="model.position" name="position">
+      </div>
+    </div>
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default" (click)="addEmployee()">Save</button>
+      </div>
+    </div>
+  </form>
+
+<h2>Read data & delete data</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th width="400">name</th>
+        <th width="400">Position</th>
+        <th width="200">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees; let i=index">
+        <td>{{employee.name}}</td>
+        <td>{{employee.position}}</td>
+        <td>
+          <a class="btn btn-success" (click)="editEmployee(i)">Edit</a>
+          <a class="btn btn-danger" (click)="deleteEmployee(i)">Delete</a>
+
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+
+<h2>Update data</h2>
+
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" name="name"
+        [(ngModel)]="model2.name" placeholder="Enter Your name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="position">Position:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="position" placeholder="Enter password Position" 
+        [(ngModel)]="model2.position" name="position">
+      </div>
+    </div>
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default" (click)="updateEmployee()">Update</button>
+      </div>
+    </div>
+  </form>
+
+
+
+  </div>

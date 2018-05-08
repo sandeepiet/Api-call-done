@@ -1,0 +1,163 @@
+[
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Sandeep",
+        "MiddleName": "Kumar",
+        "LastName": "Singh",
+        "UserName": "Sandy",
+        "Password": "1234567890",
+        "Email": "bharamu21@gmail.com",
+        "PhoneNumber": "1234567890",
+        "Address": "Bihar",
+        "PinCode": "841421",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 1,
+        "PlaceName": "Bangalore"
+        
+    },
+
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Bhavik",
+        "MiddleName": "",
+        "LastName": "Jain",
+        "UserName": "Sandy",
+        "Password": "1234567890",
+        "Email": "bhavikjain1234@gmail.com",
+        "PhoneNumber": "1298764567",
+        "Address": "Rajasthan",
+        "PinCode": "800020",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 2,
+        "PlaceName": "Patna"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Namrata",
+        "MiddleName": "",
+        "LastName": "Singh",
+        "UserName": "Namu",
+        "Password": "1234567890",
+        "Email": "namrata1234@gmail.com",
+        "PhoneNumber": "9876543210",
+        "Address": "Bihar",
+        "PinCode": "800020",
+         "Gender": "Female",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 3,
+        "PlaceName": "Patna"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Toshi",
+        "MiddleName": "",
+        "LastName": "Garg",
+        "UserName": "Manu",
+        "Password": "1234567890",
+        "Email": "manu4321@gmail.com",
+        "PhoneNumber": "6548934567",
+        "Address": "Rajasthan",
+        "PinCode": "800020",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 4,
+        "PlaceName": "Ajmer"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Mukesh",
+        "MiddleName": "",
+        "LastName": "Ranjan",
+        "UserName": "Mukesh",
+        "Password": "1234567890",
+        "Email": "mukesh1234@gmail.com",
+        "PhoneNumber": "1234567890",
+        "Address": "Bihar",
+        "PinCode": "800020",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 5,
+        "PlaceName": "P5atna"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Hemant",
+        "MiddleName": "",
+        "LastName": "Kumar",
+        "UserName": "Hemu",
+        "Password": "1234567890",
+        "Email": "hemu1234@gmail.com",
+        "PhoneNumber": "12848873474",
+        "Address": "Bihar",
+        "PinCode": "800022",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 6,
+        "PlaceName": "Chhapra"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Prabhakar",
+        "MiddleName": "",
+        "LastName": "Kumar",
+        "UserName": "rishu",
+        "Password": "1234567890",
+        "Email": "prabhakar1234@gmail.com",
+        "PhoneNumber": "7658945623",
+        "Address": "Bihar",
+        "PinCode": "800020",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 7,
+        "PlaceName": "Gaya"
+        
+    },
+
+    {
+   
+        "UniqueId": null,
+        "FirstName": "Ayush",
+        "MiddleName": "Kumar",
+        "LastName": "Singh",
+        "UserName": "Ayush",
+        "Password": "987654890",
+        "Email": "ayush1234@gmail.com",
+        "PhoneNumber": "123456789",
+        "Address": "Bihar",
+        "PinCode": "800055",
+         "Gender": "Male",
+          "Status" : "Enabled",
+         "Plans": "Basic",
+        "userId": 8,
+        "PlaceName": "Motihari"
+        
+    }
+
+]
